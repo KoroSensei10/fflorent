@@ -3,7 +3,7 @@ pkgs.stdenv.mkDerivation rec {
   pname = "fflorent";
   version = "1.2.3";
 
-  src = ./mon-theme;
+  src = ./.;
 
   installPhase = ''
     mkdir -p $out/share/plymouth/themes/fflorent
