@@ -1,0 +1,9 @@
+[Plymouth Theme]
+Name=fflorent
+Description=Thème personnalisé de démarrage
+ModuleName=script
+
+[script]
+ImageDir=/usr/share/plymouth/themes/fflorent
+ScriptFile=/usr/share/plymouth/themes/fflorent/fflorent.script
+

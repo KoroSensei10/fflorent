@@ -3,11 +3,11 @@ screen_width = Window.GetWidth();
 screen_height = Window.GetHeight();
 
 # Charger une image
-logo_image = Image("Illustration_sans_titre-1.png");
+logo_image = Image("frame-1.png");
 
 nframes = 17;
 for (i = 1; i <= nframes; i++)
- imgs[i] = Image("Illustration_sans_titre-" + i + ".png");
+ imgs[i] = Image("frame-" + i + ".png");
 
 # Calculer position centrée
 image_width = logo_image.GetWidth();
